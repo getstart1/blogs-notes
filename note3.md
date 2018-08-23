@@ -62,6 +62,12 @@ https://en.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
 FTP(File Transfer Protocol): Application level protocol used for the transfers of computer files between a client and server on a computer network. 
 
 
+protocol packet:
+When any file is sent from the source to the destination on the internet, the transmission control protocol layer divides the files into chunks of efficient size for routing. Each of these packets is separately numbered and includes in the internet address of the destination. 
+
+https://searchnetworking.techtarget.com/definition/packet
+
+
 
 
 

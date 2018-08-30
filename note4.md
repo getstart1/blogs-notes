@@ -116,3 +116,4 @@ if($conn->query($sql) === TRUE){
 
 ```
 
+My next step is to create 3 textbox, then link these textbox with the table 'Manage_user'. Insert value to that table by entering value in these textboxes.

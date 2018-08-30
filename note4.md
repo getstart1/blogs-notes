@@ -83,4 +83,36 @@ if (mysqli_query($conn, $sql)){
 ?>
 ```
 
+After creating a new table, I tried to insert value into this table.
+The code is as the following:
+
+``` PHP
+<?php
+$servername = "localhost";
+$username= "root";
+$password= "";
+$dbname="newDB1";
+$conn= new mysqli($servername,$username,$password,$dbname);
+
+//check connection
+if($conn -> connect_error){
+    die("Connection failed: ". $conn->connect_error);
+}
+else{
+    echo"Server connected successfully";
+}
+
+
+$sql = "INSERT INTO Manage_user(username,password,email)
+VALUES ('qd1', '127ty', 'qdai0723@gmail.com')";
+
+if($conn->query($sql) === TRUE){
+    echo "New record created successfully";
+}else{
+    echo"Error:".$sql . "<br>". $conn->error;
+}
+
+?>
+
+```
 

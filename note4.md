@@ -49,4 +49,38 @@ The tutorial I followed that works is:
 https://www.w3schools.com/php/php_mysql_create.asp
 
 
+After creating a new database, then I created a new table inside the database 'newDB1' that just created by myself. The code is as the following:
+```PHP
+<?php
+$servername = "localhost";
+$username= "root";
+$password= "";
+$dbname="newDB1";
+$conn= new mysqli($servername,$username,$password,$dbname);
+
+//check connection
+if($conn -> connect_error){
+    die("Connection failed: ". $conn->connect_error);
+}
+else{
+    echo"Server connected successfully";
+}
+
+
+$sql = "CREATE TABLE Manage_user(
+    username VARCHAR(20) NOT NULL,
+    password VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    reg_data TIMESTAMP
+)";
+
+if (mysqli_query($conn, $sql)){
+    echo "Table Manage_user created successfully";
+} else {
+    echo "Error creating table". mysqli_error($conn);
+}
+
+?>
+```
+
 

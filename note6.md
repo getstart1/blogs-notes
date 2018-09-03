@@ -46,12 +46,25 @@ After I follow the basic instructions about how to run the react app provided by
 1) React provides a framework for building web application or software application. By following the instruction provided, I can create a basic template for my web application. 
 2) It is important to implement some libraries into react app. 
 3) There is one important file in the React application, which is the 'router.tsx'. This is a file that takes care of the navigation between different pages. In order to make this file works, we need to install the React Router package. 
+4) There is only one html file which is the 'index.html' file in the public folder, and it is linked with a 'index.tsx' file. These two files are linked through the following way:
+https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references
 
 Next step: Apply some details in the application. For instance:
-	1) How to add paragraphs
-	2) How to add images
-	3) How to change the navigation. link to different pages.  
+	1) How to add paragraphs (done!)
+	2) How to change the navigation. link to different pages.  
+	3) How to add images
 	4) How to implement API
+
+
+Now I search on some tags that I did not meet before in order to understand more basic code:
+1) <noscript> : This is for showing the alternative content for users if the browser does not support the script. 
+resource: https://www.w3schools.com/tags/tag_noscript.asp
+2) I am confused by what is index.html 's role in this application, since the default page is not specified here? (Need more research) 
+
+
+
+
+
 
 
 

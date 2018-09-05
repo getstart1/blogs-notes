@@ -50,20 +50,20 @@ After I follow the basic instructions about how to run the react app provided by
 https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references
 
 Next step: Apply some details in the application. For instance:
-	1) How to add paragraphs (done!)
-	2) How to change the navigation. link to different pages.  
-		..1. add a new tab(done!)
+1) How to add paragraphs (done!)
+2) How to change the navigation. link to different pages.  
+-1. add a new tab(done!)
 			..*In order to deploy a new tab. add route path in the file 'router.tsx'
 			..*import component from its ancester file-- eg. import ThirdComponent from './components/ThirdComponent'
 			..*create the component file
 			..*update 'Header.tsx' file, add new navigation bar
-		..2. hyperlink(done!) -- as normal <a href= "">(done!)
-	3) How to add images(done!)
+-2. hyperlink(done!) -- as normal <a href= "">(done!)
+3) How to add images(done!)
 		```
 		import image1 from './images/tree.jpg';
 		 <img src={image1} width= "100" height= "50"/>
 		```
-	4) How to implement API
+4) How to implement API
 
 
 Now I search on some tags that I did not meet before in order to understand more basic code:

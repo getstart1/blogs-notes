@@ -6,5 +6,8 @@ Useful MAC terminal commands:
 3. open file using certain application:
     open -a "application-name" file_name
     
+4. open the folder that contains the current path:
+    open . 
+    
     
     

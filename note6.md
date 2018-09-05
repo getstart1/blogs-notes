@@ -52,12 +52,18 @@ https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacti
 Next step: Apply some details in the application. For instance:
 	1) How to add paragraphs (done!)
 	2) How to change the navigation. link to different pages.  
-		a. add a new tab
+		a. add a new tab(done!)
 			-In order to deploy a new tab. add route path in the file 'router.tsx'
 			-import component from its ancester file-- eg. import ThirdComponent from './components/ThirdComponent'
 			-create the component file
 			-update 'Header.tsx' file, add new navigation bar
-	3) How to add images
+		b. hyperlink(done!) -- as normal <a href= "">(done!)
+	3) How to add images(done!)
+		```(html)
+		import image1 from './images/tree.jpg';
+		 <img src={image1} width= "100" height= "50"/>
+		
+		```
 	4) How to implement API
 
 

@@ -59,10 +59,9 @@ Next step: Apply some details in the application. For instance:
 			-update 'Header.tsx' file, add new navigation bar
 		b. hyperlink(done!) -- as normal <a href= "">(done!)
 	3) How to add images(done!)
-		```(html)
+		```
 		import image1 from './images/tree.jpg';
 		 <img src={image1} width= "100" height= "50"/>
-		
 		```
 	4) How to implement API
 

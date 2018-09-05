@@ -57,7 +57,9 @@ Next step: Apply some details in the application. For instance:
 			⋅⋅*import component from its ancester file-- eg. import ThirdComponent from './components/ThirdComponent'
 			⋅⋅*create the component file
 			⋅⋅*update 'Header.tsx' file, add new navigation bar
-⋅⋅2. hyperlink(done!) -- as normal <a href= "">(done!)
+⋅⋅2. hyperlink(done!) -- as normal (done!)
+	```<a href= "">
+	```
 3) How to add images(done!)
 		```
 		import image1 from './images/tree.jpg';

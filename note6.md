@@ -52,6 +52,11 @@ https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacti
 Next step: Apply some details in the application. For instance:
 	1) How to add paragraphs (done!)
 	2) How to change the navigation. link to different pages.  
+		a. add a new tab
+			-In order to deploy a new tab. add route path in the file 'router.tsx'
+			-import component from its ancester file-- eg. import ThirdComponent from './components/ThirdComponent'
+			-create the component file
+			-update 'Header.tsx' file, add new navigation bar
 	3) How to add images
 	4) How to implement API
 
@@ -60,7 +65,6 @@ Now I search on some tags that I did not meet before in order to understand more
 1) <noscript> : This is for showing the alternative content for users if the browser does not support the script. 
 resource: https://www.w3schools.com/tags/tag_noscript.asp
 2) I am confused by what is index.html 's role in this application, since the default page is not specified here? (Need more research) 
-
 
 
 

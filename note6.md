@@ -67,6 +67,9 @@ Next step: Apply some details in the application. For instance:
 		```
 4) How to implement API
 
+resource: https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
+
+
 
 Now I search on some tags that I did not meet before in order to understand more basic code:
 1) <noscript> : This is for showing the alternative content for users if the browser does not support the script. 

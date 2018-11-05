@@ -68,6 +68,11 @@ When any file is sent from the source to the destination on the internet, the tr
 https://searchnetworking.techtarget.com/definition/packet
 
 
+Further research:
+
+IRS protocol
+
+
 
 
 

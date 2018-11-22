@@ -10,3 +10,8 @@ minimum change of m = error * m
 minimum change of b = error
 Youtube resource: https://www.youtube.com/watch?v=jc2IthslyzM
 
+
+Search
+
+
+

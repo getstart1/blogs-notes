@@ -23,7 +23,20 @@ I want to learn by real life practice. The first thing I want to try is linear r
 
 Machine learning using python: 
 how to load data:     https://www.datacamp.com/community/tutorials/pandas-read-csv
-important
+
+
+I tried linear regression function:
+```python
+reg = linear_model.LinearRegression()
+```
+
+predict function:
+```python 
+predict([[4]])
+```
+
+The bug I encountered was in the predict function, it is expecting 2d array, but I gave 1d array. 
+
 
 
 Training dataset, validation dataset, test dataset:
@@ -31,7 +44,8 @@ If the dataset is big enough(not sure how to decide if the dataset is big), we c
 
 Cross validation is the process that rotate to use a partition of the dataset and get the average of the error value. 
 
-What is the difference between validation dataset and testing dataset?: Validation happens before deciding the model and testing dataset happens after the model is decided. 
+What is the difference between validation set and testing set?: Validation happens before deciding the model and testing set happens after the model is decided. 
+
 
 
 

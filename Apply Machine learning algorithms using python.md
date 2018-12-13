@@ -22,3 +22,9 @@ If the dataset is big enough(not sure how to decide if the dataset is big), we c
 Cross validation is the process that rotate to use a partition of the dataset and get the average of the error value. 
 
 What is the difference between validation set and testing set?: Validation happens before deciding the model and testing set happens after the model is decided. 
+
+The following is the python code for cross validation:
+```python 
+scores = cross_val_score(reg, np.array(ds.YearsExperience).reshape(-1, 1), np.array(ds.Salary), cv = 10)
+```
+cv number can be changed. 10 represents 10 fold cross validation. 
